@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link href="/" className="hover:text-[#1173A9] transition-colors">Home</Link>
             <Link href="/solutions" className="hover:text-[#1173A9] transition-colors">Solutions</Link>
             <Link href="/specialties" className="hover:text-[#1173A9] transition-colors">Specialties</Link>
-            <Link href="/learn" className="hover:text-[#1173A9] transition-colors">Learn</Link>
+            <Link href="/learn" className="hover:text-[#1173A9] transition-colors">Faqs</Link>
             <Link href="/contact" className="hover:text-[#1173A9] transition-colors">Contact</Link>
           </div>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
           <Link href="/" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Home</Link>
           <Link href="/solutions" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Solutions</Link>
           <Link href="/specialties" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Specialties</Link>
-          <Link href="/learn" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Learn</Link>
+          <Link href="/learn" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Faqs</Link>
           <Link href="/contact" onClick={toggleMobileMenu} className="block hover:text-[#1173A9] hover:bg-gray-50 px-3 py-2 rounded-md transition-colors">Contact</Link>
           
           <div className="pt-4 border-t border-gray-100">
