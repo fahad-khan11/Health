@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,13 +15,10 @@ export default function Navbar() {
   return (
     <nav className="bg-white sticky top-0 z-50 shadow-sm border-b border-gray-100">
       <div className="max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-[80px] items-center">
+        <div className="flex justify-between h-[90px] md:h-[110px] items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center">
-              <span className="text-3xl font-extrabold text-[#1173A9]">PRO</span>
-              <span className="text-3xl font-light text-[#E76169]">MBS</span>
-            </Link>
+             <Logo className="w-[110px] md:w-[130px]" />
           </div>
 
           {/* Desktop Navigation Links */}
