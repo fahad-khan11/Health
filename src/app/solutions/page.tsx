@@ -17,7 +17,7 @@ export default function SolutionsPage() {
           <div className="max-w-[1420px] mx-auto">
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-sm">Professional Medical Billing and Coding Solutions</h1>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Pro MBS offers expert medical billing and coding and revenue cycle management services to help healthcare providers maximize efficiency and boost revenue.
+              RCM Hub Medical Billing offers expert medical billing and coding and revenue cycle management services to help healthcare providers maximize efficiency and boost revenue.
             </p>
           </div>
         </section>

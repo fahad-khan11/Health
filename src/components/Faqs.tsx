@@ -5,80 +5,80 @@ import { ChevronDown } from "lucide-react";
 
 const faqsData = [
   {
-    question: "What does Pro Medical Billing Solutions Do?",
-    answer: "Pro Medical Billing Solutions is a medical billing company that provides revenue cycle management services to healthcare providers. The company offers end-to-end billing solutions to help healthcare providers manage their billing process, including insurance verification, charge capture, claims submission, payment posting, denial management, and collections."
+    question: "What does RCM Hub Medical Billing Do?",
+    answer: "RCM Hub Medical Billing is a medical billing company that provides revenue cycle management services to healthcare providers. The company offers end-to-end billing solutions to help healthcare providers manage their billing process, including insurance verification, charge capture, claims submission, payment posting, denial management, and collections."
   },
   {
-    question: "What types of healthcare providers do Pro Medical Billing Solutions work with?",
-    answer: "Pro Medical Billing Solutions works with a wide range of healthcare providers, including physicians, dentists, chiropractors, mental health providers, and more. We have experience working with providers in various specialties and can provide customized billing solutions to meet each client's specific needs."
+    question: "What types of healthcare providers do RCM Hub Medical Billing work with?",
+    answer: "RCM Hub Medical Billing works with a wide range of healthcare providers, including physicians, dentists, chiropractors, mental health providers, and more. We have experience working with providers in various specialties and can provide customized billing solutions to meet each client's specific needs."
   },
   {
-    question: "What services does Pro Medical Billing Solutions offer?",
-    answer: "Pro Medical Billing Solutions offers a wide range of billing services, including medical billing and coding, revenue cycle management, AR and denial management, verification and prior authorization services, and more. We also offer customized solutions to meet the specific needs of each client."
+    question: "What services does RCM Hub Medical Billing offer?",
+    answer: "RCM Hub Medical Billing offers a wide range of billing services, including medical billing and coding, revenue cycle management, AR and denial management, verification and prior authorization services, and more. We also offer customized solutions to meet the specific needs of each client."
   },
   {
-    question: "How does Pro Medical Billing Solutions help healthcare providers maximize their revenue?",
-    answer: "Pro Medical Billing Solutions uses advanced technology and industry best practices to help healthcare providers maximize their revenue. We will analyze your billing processes and identify areas for improvement, then work with you to implement changes that can help you maximize your revenue and minimize revenue loss."
+    question: "How does RCM Hub Medical Billing help healthcare providers maximize their revenue?",
+    answer: "RCM Hub Medical Billing uses advanced technology and industry best practices to help healthcare providers maximize their revenue. We will analyze your billing processes and identify areas for improvement, then work with you to implement changes that can help you maximize your revenue and minimize revenue loss."
   },
   {
-    question: "Is my data secure with Pro Medical Billing Solutions?",
-    answer: "Yes, Pro Medical Billing Solutions takes data security very seriously. We use advanced security measures to protect your data, including secure servers, data encryption, and secure data transfer protocols. We are fully compliant with HIPAA regulations and other industry standards for data security."
+    question: "Is my data secure with RCM Hub Medical Billing?",
+    answer: "Yes, RCM Hub Medical Billing takes data security very seriously. We use advanced security measures to protect your data, including secure servers, data encryption, and secure data transfer protocols. We are fully compliant with HIPAA regulations and other industry standards for data security."
   },
   {
-    question: "How quickly does Pro Medical Billing Solutions file claims?",
-    answer: "Pro Medical Billing Solutions files claims as quickly as possible to ensure that you receive payment in a timely manner. Our goal is to submit claims within 24-48 hours of receiving the necessary information from your practice."
+    question: "How quickly does RCM Hub Medical Billing file claims?",
+    answer: "RCM Hub Medical Billing files claims as quickly as possible to ensure that you receive payment in a timely manner. Our goal is to submit claims within 24-48 hours of receiving the necessary information from your practice."
   },
   {
-    question: "Can Pro Medical Billing Solutions submit claims to all insurance providers?",
-    answer: "Pro Medical Billing Solutions can submit claims to most insurance providers, including Medicare, Medicaid, and private insurance providers. Our team stays current on industry changes and requirements to ensure that we can submit claims to any insurance provider you work with."
+    question: "Can RCM Hub Medical Billing submit claims to all insurance providers?",
+    answer: "RCM Hub Medical Billing can submit claims to most insurance providers, including Medicare, Medicaid, and private insurance providers. Our team stays current on industry changes and requirements to ensure that we can submit claims to any insurance provider you work with."
   },
   {
-    question: "How does Pro Medical Billing Solutions handle denied claims?",
-    answer: "Pro Medical Billing Solutions has a team of experts who specialize in managing denied claims. We will review the reason for the denial, determine the appropriate course of action, and work with insurance providers to resolve the issue and resubmit the claim if necessary."
+    question: "How does RCM Hub Medical Billing handle denied claims?",
+    answer: "RCM Hub Medical Billing has a team of experts who specialize in managing denied claims. We will review the reason for the denial, determine the appropriate course of action, and work with insurance providers to resolve the issue and resubmit the claim if necessary."
   },
   {
-    question: "Does Pro Medical Billing Solutions provide real-time claim status updates?",
-    answer: "Yes, Pro Medical Billing Solutions provides real-time claim status updates so that our clients can stay informed about the status of their claims. We use advanced technology to track claims and provide timely updates on their status."
+    question: "Does RCM Hub Medical Billing provide real-time claim status updates?",
+    answer: "Yes, RCM Hub Medical Billing provides real-time claim status updates so that our clients can stay informed about the status of their claims. We use advanced technology to track claims and provide timely updates on their status."
   },
   {
-    question: "How does Pro Medical Billing Solutions ensure that claims are accurate?",
-    answer: "Pro Medical Billing Solutions uses advanced technology and industry best practices to ensure that claims are accurate before submission. We review all claim information for accuracy, including patient information, procedure codes, and insurance information. If we identify any issues, we will work with your practice to correct them before submitting the claim."
+    question: "How does RCM Hub Medical Billing ensure that claims are accurate?",
+    answer: "RCM Hub Medical Billing uses advanced technology and industry best practices to ensure that claims are accurate before submission. We review all claim information for accuracy, including patient information, procedure codes, and insurance information. If we identify any issues, we will work with your practice to correct them before submitting the claim."
   },
   {
-    question: "How can Pro Medical Billing Solutions assist with physician credentialing?",
-    answer: "Pro Medical Billing Solutions has a team of experts who specialize in physician credentialing. We can assist with all aspects of the credentialing process, including gathering and verifying all necessary documentation, completing and submitting applications, and following up with insurance providers and other organizations to ensure that the credentialing process is completed as quickly and efficiently as possible."
+    question: "How can RCM Hub Medical Billing assist with physician credentialing?",
+    answer: "RCM Hub Medical Billing has a team of experts who specialize in physician credentialing. We can assist with all aspects of the credentialing process, including gathering and verifying all necessary documentation, completing and submitting applications, and following up with insurance providers and other organizations to ensure that the credentialing process is completed as quickly and efficiently as possible."
   },
   {
     question: "How long does physician credentialing take?",
-    answer: "The length of the physician credentialing process can vary depending on the provider, the insurance provider, and other factors. However, the process can often take several months to complete. Pro Medical Billing Solutions works to expedite the credentialing process as much as possible by staying on top of deadlines and following up with insurance providers and other organizations."
+    answer: "The length of the physician credentialing process can vary depending on the provider, the insurance provider, and other factors. However, the process can often take several months to complete. RCM Hub Medical Billing works to expedite the credentialing process as much as possible by staying on top of deadlines and following up with insurance providers and other organizations."
   },
   {
-    question: "How does Pro Medical Billing Solutions ensure the accuracy of credentialing information?",
-    answer: "Pro Medical Billing Solutions uses advanced technology and industry best practices to ensure the accuracy of credentialing information. We carefully review all documentation to ensure that it is complete and accurate, and we follow up with insurance providers and other organizations to confirm that all information is correct."
+    question: "How does RCM Hub Medical Billing ensure the accuracy of credentialing information?",
+    answer: "RCM Hub Medical Billing uses advanced technology and industry best practices to ensure the accuracy of credentialing information. We carefully review all documentation to ensure that it is complete and accurate, and we follow up with insurance providers and other organizations to confirm that all information is correct."
   },
   {
-    question: "What are the benefits of outsourcing revenue cycle management to Pro Medical Billing Solutions?",
-    answer: "Outsourcing revenue cycle management to Pro Medical Billing Solutions can help healthcare providers reduce administrative burdens, minimize revenue cycle errors, improve cash flow, and increase revenue. Our team of experts has the knowledge and experience to handle all aspects of revenue cycle management, allowing healthcare providers to focus on delivering quality patient care."
+    question: "What are the benefits of outsourcing revenue cycle management to RCM Hub Medical Billing?",
+    answer: "Outsourcing revenue cycle management to RCM Hub Medical Billing can help healthcare providers reduce administrative burdens, minimize revenue cycle errors, improve cash flow, and increase revenue. Our team of experts has the knowledge and experience to handle all aspects of revenue cycle management, allowing healthcare providers to focus on delivering quality patient care."
   },
   {
-    question: "How can Pro Medical Billing Solutions help healthcare providers improve their financial performance?",
-    answer: "Pro Medical Billing Solutions can help healthcare providers improve their financial performance by streamlining revenue cycle management processes, reducing denials and rejections, improving cash flow, and increasing revenue. Our team of experts works closely with healthcare providers to identify areas for improvement and implement strategies to optimize financial performance."
+    question: "How can RCM Hub Medical Billing help healthcare providers improve their financial performance?",
+    answer: "RCM Hub Medical Billing can help healthcare providers improve their financial performance by streamlining revenue cycle management processes, reducing denials and rejections, improving cash flow, and increasing revenue. Our team of experts works closely with healthcare providers to identify areas for improvement and implement strategies to optimize financial performance."
   },
   {
-    question: "What specific practice management services does Pro Medical Billing Solutions offer?",
-    answer: "Pro Medical Billing Solutions offers a wide range of practice management services, including patient scheduling, claims management, physician credentialing, verification and prior authorization, financial reporting, and more. Our solutions are customizable and scalable to meet the unique needs of your practice."
+    question: "What specific practice management services does RCM Hub Medical Billing offer?",
+    answer: "RCM Hub Medical Billing offers a wide range of practice management services, including patient scheduling, claims management, physician credentialing, verification and prior authorization, financial reporting, and more. Our solutions are customizable and scalable to meet the unique needs of your practice."
   },
   {
-    question: "How can Pro Medical Billing Solutions help me grow my healthcare practice?",
-    answer: "By helping you achieve financial freedom and improving your practice management processes, Pro Medical Billing Solutions can help you invest in new technologies, hire more staff, expand your services, and enhance patient experiences. We also provide ongoing support, training, and strategic guidance to help you grow and thrive in today's competitive healthcare landscape."
+    question: "How can RCM Hub Medical Billing help me grow my healthcare practice?",
+    answer: "By helping you achieve financial freedom and improving your practice management processes, RCM Hub Medical Billing can help you invest in new technologies, hire more staff, expand your services, and enhance patient experiences. We also provide ongoing support, training, and strategic guidance to help you grow and thrive in today's competitive healthcare landscape."
   },
   {
-    question: "How does data move from my practice to Pro Medical Billing Solutions?",
-    answer: "Pro Medical Billing Solutions uses secure data transfer protocols to protect your data during transfer. You can upload your data to our secure servers, or we can work with you to set up a secure data transfer process that meets your needs."
+    question: "How does data move from my practice to RCM Hub Medical Billing?",
+    answer: "RCM Hub Medical Billing uses secure data transfer protocols to protect your data during transfer. You can upload your data to our secure servers, or we can work with you to set up a secure data transfer process that meets your needs."
   },
   {
-    question: "Does Pro Medical Billing Solutions provide training on billing processes?",
-    answer: "Yes, Pro Medical Billing Solutions provides training on billing processes for healthcare providers and their staff. Our training sessions are designed to help you understand the billing process and learn best practices for managing your revenue cycle."
+    question: "Does RCM Hub Medical Billing provide training on billing processes?",
+    answer: "Yes, RCM Hub Medical Billing provides training on billing processes for healthcare providers and their staff. Our training sessions are designed to help you understand the billing process and learn best practices for managing your revenue cycle."
   }
 ];
 
