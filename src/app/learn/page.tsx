@@ -16,7 +16,7 @@ export default function LearnPage() {
           <div className="max-w-[1420px] mx-auto">
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-sm">Medical Billing Consultancy FAQs</h1>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Why Pro-MBS? Get Expert answers to common Billing, Prior Authorization, and RCM questions from providers.
+              Why RCM Hub Medical Billing? Get Expert answers to common Billing, Prior Authorization, and RCM questions from providers.
             </p>
           </div>
         </section>

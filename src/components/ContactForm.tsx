@@ -11,33 +11,33 @@ export default function ContactForm({ isModal = false }: { isModal?: boolean }) 
             </p>
             
             <div className="space-y-4 md:space-y-6 mt-2 md:mt-4">
-              <a href="tel:7252372757" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
+              <a href="tel:+16405007848" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
                  <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 group-hover:bg-[#E76169] group-hover:scale-110 shadow-sm rounded-full flex items-center justify-center transition-all shrink-0 duration-300">
                     <Phone className="text-white w-5 h-5 md:w-6 md:h-6" />
                  </div>
                  <div>
                     <h4 className="font-semibold text-lg md:text-xl text-white group-hover:text-[#F0F7FB] transition-colors">Call Us Directly</h4>
-                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1">(725) 237-2757</p>
+                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1 flex flex-col gap-0.5"><span>+1 (640) 500-7848</span><span>+1 (336) 223-6989</span></p>
                  </div>
               </a>
               
-              <a href="mailto:info@prombs.com" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
+              <a href="mailto:info@rcmhubmedicalbilling.com" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
                  <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 group-hover:bg-[#E76169] group-hover:scale-110 shadow-sm rounded-full flex items-center justify-center transition-all shrink-0 duration-300">
                     <Mail className="text-white w-5 h-5 md:w-6 md:h-6" />
                  </div>
                  <div>
                     <h4 className="font-semibold text-lg md:text-xl text-white group-hover:text-[#F0F7FB] transition-colors">Email Us</h4>
-                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1">info@prombs.com</p>
+                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1">info@rcmhubmedicalbilling.com</p>
                  </div>
               </a>
 
-              <a href="https://wa.me/17252372757" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
+              <a href="https://wa.me/16405007848" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 md:gap-5 hover:bg-white/10 p-3 md:p-4 -ml-3 md:-ml-4 rounded-xl transition-all duration-300 group cursor-pointer w-fit border border-transparent hover:border-white/10">
                  <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 group-hover:bg-[#E76169] group-hover:scale-110 shadow-sm rounded-full flex items-center justify-center transition-all shrink-0 duration-300">
                     <MessageCircle className="text-white w-5 h-5 md:w-6 md:h-6" />
                  </div>
                  <div>
                     <h4 className="font-semibold text-lg md:text-xl text-white group-hover:text-[#F0F7FB] transition-colors">WhatsApp Us</h4>
-                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1">(725) 237-2757</p>
+                    <p className="text-[14px] md:text-[15px] text-white/80 mt-1">+1 (640) 500-7848</p>
                  </div>
               </a>
             </div>

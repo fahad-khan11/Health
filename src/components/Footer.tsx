@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,12 +9,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           <div className="space-y-6">
-            <Link href="/" className="inline-block">
-              <span className="text-3xl font-extrabold text-white">PRO</span>
-              <span className="text-3xl font-light text-[#E76169]">MBS</span>
-            </Link>
+            <Logo isDark={true} className="w-[100px] md:w-[130px]" />
             <p className="text-white/80 text-sm leading-relaxed">
-              Professional Medical Billing Solutions designed to resolve issues in your Revenue Cycle Management, accelerating financial results through intelligent processes.
+              RCM Hub Medical Billing Solutions designed to resolve issues in your Revenue Cycle Management, accelerating financial results through intelligent processes.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E76169] transition-colors"><Facebook size={18} /></a>
@@ -59,15 +57,18 @@ export default function Footer() {
             <ul className="space-y-5">
               <li className="flex items-start gap-3">
                 <MapPin className="text-[#5DBDA3] shrink-0 mt-1" size={20} />
-                <span className="text-white/80 text-sm">Head Office | Houston, Nevada Office, Colorado Office, Las Vegas Office, Virginia Office</span>
+                <span className="text-white/80 text-sm">106 Englewood Street, Philadelphia, PA 19149</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="text-[#5DBDA3] shrink-0" size={20} />
-                <a href="tel:7252372757" className="text-white/80 hover:text-white">(725) 237-2757</a>
+              <li className="flex items-start gap-3">
+                <Phone className="text-[#5DBDA3] shrink-0 mt-1" size={20} />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+16405007848" className="text-white/80 hover:text-white">+1 (640) 500-7848</a>
+                  <a href="tel:+13362236989" className="text-white/80 hover:text-white">+1 (336) 223-6989</a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-[#5DBDA3] shrink-0" size={20} />
-                <a href="mailto:info@prombs.com" className="text-white/80 hover:text-white">info@prombs.com</a>
+                <a href="mailto:info@rcmhubmedicalbilling.com" className="text-white/80 hover:text-white">info@rcmhubmedicalbilling.com</a>
               </li>
             </ul>
           </div>
@@ -77,7 +78,7 @@ export default function Footer() {
       
       <div className="bg-[#054366] py-6">
         <div className="max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/70">
-          <p>&copy; {new Date().getFullYear()} PRO-MBS. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} RCM Hub Medical Billing. All Rights Reserved.</p>
           <div className="flex space-x-6">
             <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white">Terms & Conditions</Link>

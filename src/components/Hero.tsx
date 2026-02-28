@@ -16,7 +16,7 @@ export default function Hero() {
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-[#1173A9] font-bold text-lg uppercase tracking-wider">
-                Professional Medical Billing Solutions
+                RCM Hub Medical Billing Solutions
               </h3>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#054366] leading-tight drop-shadow-sm">
                 Speeds Up the <br />
